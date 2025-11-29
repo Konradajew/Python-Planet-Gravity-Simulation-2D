@@ -146,7 +146,7 @@ def simulation(window, number):
     esc = BasicButton(window=simulation_window.master, text="ESC - Leave", font=("Impact", 24, "bold"))
     esc.create.config(command=lambda: end_simulation(simulation_window))
 
-    author = Label(text="Konradajew\nBig boy", bg=LIGHT_BLUE, fg=RED, pady=50, font=FONT)
+    author = Label(text="Konrad\nSzymański", bg=LIGHT_BLUE, fg=RED, pady=50, font=FONT)
     author.pack()
     for planet in planets:
         planet.planet.showturtle()
@@ -196,3 +196,4 @@ def menu():
 
 should_simulate = True
 menu()
+
