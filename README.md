@@ -1,28 +1,33 @@
 # Planet Simulation in Python
 
-This is a 2D planetary system simulation in Python using `Tkinter` and `turtle`.  
-The project allows interactive observation of celestial bodies, adding custom planets, and visualizing their trajectories and velocity vectors.
+A beautiful 2D planetary system simulation built with **Python** using `tkinter` and `turtle`.  
+Watch planets orbit under real Newtonian gravity, add your own celestial bodies, and visualize their trajectories and velocity vectors in real time.
 
 ![Simulation Demo](simulation.gif)
 
 ## Features
 
-- Newtonian gravity-based simulation of planetary motion.
-- Supports 2 to 10 planets by default.
-- Add your own planet with mass, position, velocity, and size.
-- Draw trajectories and velocity vectors for planets.
-- Interactive interface with buttons and keyboard shortcuts:
-  - `S` - Start simulation
-  - `T` - Draw trajectory
-  - `C` - Clear trajectory
-  - `W` - Toggle velocity vectors
-  - `M` - Return to menu
-  - `ESC` - Exit simulation
- 
-- ## Installation
+- Accurate **Newtonian gravity** physics engine
+- Default system with **2–10 planets** (fully customizable)
+- Add your own planets: set **mass**, **position**, **initial velocity**, and **size**
+- Real-time **orbit tracing** (trajectories)
+- Toggle **velocity vectors** display
+- Interactive keyboard controls:
+  - `S` → Start / pause simulation  
+  - `T` → Toggle trajectory drawing  
+  - `C` → Clear trajectories  
+  - `W` → Show/hide velocity vectors  
+  - `M` → Return to main menu  
+  - `Esc` → Exit
 
-1. Clone the repository:
+## Requirements
+
+- **Python 3.6+**  
+  (`tkinter` and `turtle` are included in standard Python installation — no extra packages needed)
+
+## Installation & Running
 
 ```bash
 git clone https://github.com/your_username/PlanetSimulationPython.git
 cd PlanetSimulationPython
+python main.py
