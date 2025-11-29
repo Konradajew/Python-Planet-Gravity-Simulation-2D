@@ -13,6 +13,7 @@ Watch planets orbit under real Newtonian gravity, add your own celestial bodies,
 - Real-time **orbit tracing** (trajectories)
 - Toggle **velocity vectors** display
 - Interactive keyboard controls:
+  - `A` → Add planet
   - `S` → Start / pause simulation  
   - `T` → Toggle trajectory drawing  
   - `C` → Clear trajectories  
