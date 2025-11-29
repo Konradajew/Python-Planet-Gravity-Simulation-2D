@@ -22,9 +22,11 @@ Watch planets orbit under real Newtonian gravity, add your own celestial bodies,
  
 ## Screenshots
 
-| Main simulation (with trails + vectors) | Adding a custom planet |
-|----------------------------------------|------------------------|
-| ![Running simulation](screenshot_running.jpg) | ![Add planet menu](screenshot_add_planet.jpg) |
+### Running simulation (trails + velocity vectors)
+![Running simulation with trails and vectors](screenshot_running.jpg)
+
+### Adding a custom planet
+![Add planet menu – set mass, position, velocity and color](screenshot_add_planet.jpg)
 
 ## Requirements
 
