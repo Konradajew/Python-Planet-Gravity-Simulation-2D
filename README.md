@@ -1,27 +1,28 @@
-# Symulacja Układu Planetarnego
+# Planet Simulation in Python
 
-Symulacja układu planetarnego w Pythonie z użyciem `Tkinter` i `turtle`.  
-Projekt pozwala na interaktywną obserwację ruchu ciał niebieskich, tworzenie własnych planet oraz wizualizację torów i wektorów prędkości.
+This is a 2D planetary system simulation in Python using `Tkinter` and `turtle`.  
+The project allows interactive observation of celestial bodies, adding custom planets, and visualizing their trajectories and velocity vectors.
 
-![Demo Screenshot](screenshot.png)
+![Simulation Demo](simulation.gif)
 
-## Funkcje
+## Features
 
-- Symulacja ruchu ciał niebieskich w 2D według prawa grawitacji Newtona.
-- Obsługa od 2 do 10 planet.
-- Możliwość dodania własnej planety z podaniem masy, pozycji, prędkości i rozmiaru.
-- Rysowanie torów planet i wektorów prędkości.
-- Interaktywny interfejs z przyciskami oraz skrótami klawiszowymi:
-  - `S` - Start
-  - `T` - Rysuj tor
-  - `C` - Czyść tor
-  - `W` - Włącz wektory prędkości
-  - `M` - Powrót do menu
-  - `ESC` - Zakończenie symulacji
+- Newtonian gravity-based simulation of planetary motion.
+- Supports 2 to 10 planets by default.
+- Add your own planet with mass, position, velocity, and size.
+- Draw trajectories and velocity vectors for planets.
+- Interactive interface with buttons and keyboard shortcuts:
+  - `S` - Start simulation
+  - `T` - Draw trajectory
+  - `C` - Clear trajectory
+  - `W` - Toggle velocity vectors
+  - `M` - Return to menu
+  - `ESC` - Exit simulation
+ 
+- ## Installation
 
-## Instalacja
+1. Clone the repository:
 
-1. Skopiuj repozytorium:
-   ```bash
-   git clone https://github.com/twoj_username/planet-simulation.git
-   cd planet-simulation
+```bash
+git clone https://github.com/your_username/PlanetSimulationPython.git
+cd PlanetSimulationPython
